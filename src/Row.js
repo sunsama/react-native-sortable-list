@@ -172,6 +172,7 @@ export default class Row extends Component {
 
     return (
       <Animated.View
+        useNativeDriver
         {...this._panResponder.panHandlers}
         style={rowStyle}
         onLayout={this._onLayout}>
